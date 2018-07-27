@@ -1,0 +1,44 @@
+Bash常用命令
+
+cd:change directory
+mkdir:make dirctory
+pwd:print working directory
+mv:move
+copy:cp
+rm:remove
+ls -a:隐藏文件
+\:换行
+clear清空
+ctrl c：退出命令行
+
+vim模式的操作
+i:编辑
+wq：保存退出
+k向上翻页
+j向下翻页
+G最后一行
+g上端
+ /xxx  查找xxx
+ q 退出
+
+设置Git参数
+显示Git配置:   git config --list
+设置提交仓库时的用户名信息：    git config --global user.name"xxx"
+设置提交仓库时的邮箱信息：      git config --golbal user.email"ccc@..." 
+
+git命令
+git log:提交信息
+git init ：初始化仓库
+gti status:状态信息
+
+添加文件到暂存区：git add filename.xx
+提交文件：git commit -m“提交的说明信息”
+git commit -a -m"xxx" 直接提交
+查看某版本内容：git show  commit版本hash值
+
+git远程仓库 
+增加远程仓库并命名： git remote add [shortname] [url]
+将本地提交推送到远程仓库：git push [remote] [branch]
+将远程仓库的提交下拉到本地：git pull [remote] [branch]
+
+
