@@ -1,4 +1,4 @@
-Bash常用命令
+﻿Bash常用命令
 
 cd:change directory
 mkdir:make dirctory
@@ -31,6 +31,10 @@ git log:提交信息
 git init ：初始化仓库
 gti status:状态信息
 
+git远程仓库
+git remote -v：查看远程仓库连接
+建立与远程仓库的连接：git remote add origin https://github.com/ttorange/learngit(GitHub仓库地址)
+提交到远程仓库：git push origin master
 添加文件到暂存区：git add filename.xx
 提交文件：git commit -m“提交的说明信息”
 git commit -a -m"xxx" 直接提交
